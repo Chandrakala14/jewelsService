@@ -7,10 +7,10 @@ app.use(bodyParser.json());
 // app.use(express.json());
 
 var connection = mysql.createConnection({
-    host  :'192.168.2.2',
+    host  :'localhost',
     user  :'testmysql',
     password :'test123',
-    database : 'jewels'
+    database : 'test'
 });
 
 connection.connect(function(err){
